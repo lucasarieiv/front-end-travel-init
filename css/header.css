@@ -1,0 +1,48 @@
+.header-travel {
+  margin: 45px 0 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-travel .title {
+  font-weight: 900;
+  font-size: 24px;
+  color: var(--main-blue-color);
+}
+
+.title span {
+  color: var(--main-black-color);
+}
+
+.navigation-travel .link {
+  text-decoration: none;
+  color: var(--main-gray-color);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.link + .link {
+  margin-left: 75px;
+}
+
+.header-travel .buttons {
+  margin-right: 6px;
+}
+
+.btn {
+  border: 0;
+  font-size: 16px;
+  background-color: transparent;
+  font-weight: 700;
+  color: var(--main-blue-color);
+  cursor: pointer;
+}
+
+.btn.sign-up {
+  color: #fff;
+  background-color: var(--main-blue-color);
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin-left: 16px;
+}
