@@ -6,13 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700;900&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;900&display=swap" rel="stylesheet"> 
   <title>Travel.init</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/colors.css">
   <link rel="stylesheet" href="css/container.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/banner.css">
+  <link rel="stylesheet" href="css/popular-search.css">
+  <link rel="stylesheet" href="css/travel-category.css">
 </head>
 <body>
   
@@ -104,11 +106,116 @@
         </div>
       </div>
     </section>
+
+    <section class="popular-search">
+      <h1 class="title">Popular Search</h1>
+      <div class="places">
+        <div class="first">
+          <a class="common" href="#">Eiffel tower</a>
+          <a class="common" href="#">Bali</a>
+          <a class="common" href="#">Egypt</a>
+          <a class="common" href="#">Eiffel tower</a>
+          <a class="common" href="#">Turkey</a>
+          <a class="common" href="#">The Grand Canyon</a>
+        </div>
+        <div class="second">
+          <a class="common" href="#">Cappadocia</a>
+          <a class="common" href="#">UAE</a>
+          <a class="common" href="#">The Grand Canyon</a>
+          <a class="common" href="#">London</a>
+          <a class="common" href="#">USA</a>
+          <a class="common" href="#">Temple Japan</a>
+        </div>
+      </div>
+    </section>
   </div>
 
-  <!-- <button class="select">Select</button>
-  <button class="step-down">Down</button>
-  <button class="step-up">Up</button> -->
+  <section class="travel-category">
+    <nav class="navigation">
+      <div class="header">
+          <h1 class="title">Category</h1>
+          <div class="buttons">
+            <button class="btn -left">
+              <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.292893 7.29289C-0.0976314 7.68342 -0.0976315 8.31658 0.292892 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928931C7.68054 0.538407 7.04738 0.538407 6.65686 0.928931L0.292893 7.29289ZM17 7L1 7L1 9L17 9L17 7Z" fill="#3075C6"/>
+              </svg>
+            </button>
+            <button class="btn -right">
+              <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.7071 8.70711C17.0976 8.31658 17.0976 7.68342 16.7071 7.29289L10.3431 0.928932C9.95262 0.538408 9.31946 0.538408 8.92893 0.928932C8.53841 1.31946 8.53841 1.95262 8.92893 2.34315L14.5858 8L8.92893 13.6569C8.53841 14.0474 8.53841 14.6805 8.92893 15.0711C9.31946 15.4616 9.95262 15.4616 10.3431 15.0711L16.7071 8.70711ZM0 9L16 9V7L0 7L0 9Z" fill="white"/>
+              </svg>
+            </button>
+        </div>
+      </div>
+      <p class="text">You don't have to look for your tour for a long time. 
+      We have grouped them by category</p>
+    </nav>
+
+    <div class="places">
+        <figure class="card">
+          <div class="card-image">
+            <a href="#">
+              <img src="img/card/beach.png" alt="Beach">
+            </a>
+          </div>
+          <figcaption class="card-text">Beach</figcaption>
+        </figure>
+  
+        <figure class="card">
+          <div class="card-image">
+            <a href="#">
+              <img src="img/card/mountain.png" alt="Mountain">
+            </a>
+          </div>
+          <figcaption class="card-text">Mountain</figcaption>
+        </figure>
+  
+        <figure class="card">
+          <div class="card-image">
+            <a href="#">
+              <img src="img/card/desert.png" alt="Desert">
+            </a>
+          </div>
+          <figcaption class="card-text">Desert</figcaption>
+        </figure>
+  
+        <figure class="card">
+          <div class="card-image">
+            <a href="#">
+              <img src="img/card/tower.png" alt="Eiffel Tower">
+            </a>
+          </div>
+          <figcaption class="card-text">Tower</figcaption>
+        </figure>
+  
+        <figure class="card">
+          <div class="card-image">
+            <a href="#">
+              <img src="img/card/temple-place.png" alt="Temple">
+            </a>
+          </div>
+          <figcaption class="card-text">Temple</figcaption>
+        </figure>
+  
+        <figure class="card">
+          <div class="card-image">
+            <a href="#">
+              <img src="img/card/forest.png" alt="Forest">
+            </a>
+          </div>
+          <figcaption class="card-text">Forest</figcaption>
+        </figure>
+  
+        <figure class="card">
+          <div class="card-image">
+            <a href="#">
+              <img src="img/card/city.png" alt="City">
+            </a>
+          </div>
+          <figcaption class="card-text">City</figcaption>
+        </figure>
+    </div>
+  </section>
 
   <script src="js/script.js"></script>
 

@@ -30,7 +30,7 @@
   margin-right: 6px;
 }
 
-.btn {
+.header-travel .btn {
   border: 0;
   font-size: 16px;
   background-color: transparent;
@@ -39,7 +39,7 @@
   cursor: pointer;
 }
 
-.btn.sign-up {
+.header-travel .btn.sign-up {
   color: #fff;
   background-color: var(--main-blue-color);
   padding: 8px 16px;
