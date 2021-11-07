@@ -1,0 +1,50 @@
+.popular-search {
+  max-width: 1030px;
+  margin: 120px auto 0 auto;
+  text-align: center;
+}
+.popular-search > .title {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: var(--main-black-color);
+  position: relative;
+}
+
+.popular-search > .title::after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  background: #E1FFDA;
+  position: absolute;
+  bottom: 0;
+  transform: translateX(calc(100% + 4px));
+  border-radius: 50%;
+  box-shadow: 14px -12px 0px 2px #FFE0E0, 
+              0 -28px 0px 5px #D3E5FF;
+}
+
+.popular-search > .places  {
+  text-align: left;
+}
+
+.places .common {
+  box-sizing: border-box;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--main-gray-color);
+  font-weight: 400;
+  padding: 8px 20px;
+  border-radius: 14px;
+  border: 2px solid var(--main-gray-color);
+}
+
+.places > .first {
+  margin-bottom: 20px;
+}
+
+.first > .common,
+.second > .common {
+  margin-right: 12px;
+}
