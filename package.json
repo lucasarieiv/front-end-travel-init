@@ -1,0 +1,26 @@
+{
+  "name": "travel",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">     <a href=\"https://www.figma.com/community/file/1031669453280336591\">Travel.init</a> </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasarieiv/front-end-travel-init.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasarieiv/front-end-travel-init/issues"
+  },
+  "homepage": "https://github.com/lucasarieiv/front-end-travel-init#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "horizontal-scroll": "^1.1.0"
+  }
+}
