@@ -1,13 +1,3 @@
-
-const HorizontalScroll = require('horizontal-scroll')
-
-var blocks = document.getElementsByClassName('places');
-var container = document.getElementsByClassName('card');
-var hs = new HorizontalScroll.default({
-	blocks : blocks,
-	container: container,
-});
-
 let numberValue = 0
 
 const $bannerTravel = document.querySelector('.banner-travel')
