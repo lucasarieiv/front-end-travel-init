@@ -105,6 +105,14 @@
   transform: translateY(-50%);
   cursor: pointer;
 }
+ 
+ .search-data:nth-child(3) > .btn-search:active{
+   transform: scale(0.9);
+  transition: transform 200ms;
+ transform:translateY(-45%); 
+} 
+
+
 
 .box-info > .title {
   display: inline-block;
