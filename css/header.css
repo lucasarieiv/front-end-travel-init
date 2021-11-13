@@ -20,7 +20,26 @@
   color: var(--main-gray-color);
   font-weight: 600;
   font-size: 18px;
+  position: relative;
+  
 }
+
+.navigation-travel .-action::after{
+  content: '';
+  height: 1px;
+  width: 100%;
+  background-color:white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: center left;
+  transition: transform 200ms linear;
+}
+
+.-action:hover::after{
+  transform: scale(1);
+background-color: var(--main-blue-color)}
 
 .link + .link {
   margin-left: 75px;
@@ -45,4 +64,9 @@
   padding: 8px 16px;
   border-radius: 5px;
   margin-left: 16px;
+}
+
+.header-travel .btn:active{
+  transform: scale(0.9);
+  transition: transform 200ms;
 }

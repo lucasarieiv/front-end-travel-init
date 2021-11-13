@@ -28,7 +28,9 @@
   text-align: left;
 }
 
+
 .places .common {
+  position: relative;
   box-sizing: border-box;
   display: inline-block;
   text-decoration: none;
@@ -38,7 +40,33 @@
   padding: 8px 20px;
   border-radius: 14px;
   border: 2px solid var(--main-gray-color);
+  overflow: hidden;
 }
+
+.common.-interest-points::after{
+  content: '';
+  height: 100%;
+  width: 110%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  transform: scaleX(0);
+  transform-origin: center left;
+  transition: transform 200ms linear;
+}
+
+.common.-interest-points:hover::after {
+   transform: scale(1) ;
+   z-index: -1;
+   background-color: var(--main-blue-color);
+  background-origin:border-box;
+  
+  }
+
+  .common:hover {
+    color:#fff;
+  }
+
 
 .places > .first {
   margin-bottom: 20px;
