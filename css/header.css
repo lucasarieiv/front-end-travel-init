@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+.header-travel > .menu {
+  display: none;
+}
+
 .header-travel .title {
   font-weight: 900;
   font-size: 24px;
@@ -26,9 +30,8 @@
 
 .navigation-travel .-action::after{
   content: '';
-  height: 1px;
+  height: 2px;
   width: 100%;
-  background-color:white;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -38,8 +41,8 @@
 }
 
 .-action:hover::after{
-  transform: scale(1);
-background-color: var(--main-blue-color)}
+  transform: scaleX(1);
+  background-color: var(--main-blue-color)}
 
 .link + .link {
   margin-left: 75px;

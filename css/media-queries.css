@@ -1,0 +1,48 @@
+@media screen and (max-width: 576px) {
+  .container {
+  }
+
+  .header-travel {
+    display: block;
+    justify-content: center;
+    position: relative;
+  }
+  .header-travel > .title {
+    text-align: center;
+  }
+
+  .header-travel > .menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-100%);
+  }
+
+  .navigation-travel {
+    display: none;
+    margin-top: 24px;
+  }
+
+  .navigation-travel.-active {
+    display: block;
+  }
+
+  .navigation-travel .link {
+    display: block;
+    margin: 0;
+    text-align: center;
+    margin-top: 16px;
+    padding-bottom: 6px;
+  }
+
+  .navigation-travel .-action::after {
+    width: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .buttons {
+    display: none;
+  }
+}

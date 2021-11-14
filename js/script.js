@@ -14,6 +14,14 @@ const $stepUp = $bannerTravel.querySelector('.step-up')
 const $subtraction = $bannerTravel.querySelector('.subtraction')
 const $addition = $bannerTravel.querySelector('.addition')
 
+const $menu = document.querySelector('.menu');
+const $navigation = document.querySelector('.navigation-travel')
+
+
+$menu.addEventListener('click', ()=> {
+  $navigation.classList.toggle('-active')
+})
+
 function stepDown(element) {
   element.stepDown()
 }
