@@ -6,7 +6,10 @@
 
  ![Travel.init](img/Thumbnail.jpg)
 
-> Projeto desenvolvido para fins de estudo. ![Link do projeto]('https://lucasarieiv.github.io/front-end-travel-init/')
+> Projeto desenvolvido para fins de estudo.
+
+
+![Link do projeto]('https://lucasarieiv.github.io/front-end-travel-init/')
 
 
 
