@@ -1,0 +1,36 @@
+.travel-tours {
+  clear: both;
+  display: inline-block;
+  margin-top: 126px;
+  width: 100%;
+}
+
+.travel-tours .tours-container {
+  max-width: 1164px;
+  margin: 0 auto;
+}
+
+.tours-container > .title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--main-black-color);
+}
+
+.tours-container > .text {
+  text-align: center;
+  font-weight: 600;
+  color: var(--main-gray-color);
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.tours-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tours-cards .tours-card {
+  max-width: 260px;
+}
