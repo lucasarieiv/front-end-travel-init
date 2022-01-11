@@ -20,6 +20,6 @@ Link do projeto https://lucasarieiv.github.io/front-end-travel-init/
 
 ## 💻 Tecnologias/Ferramentas
 - FIGMA 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JAVSCRIPT
