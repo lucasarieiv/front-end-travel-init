@@ -1,0 +1,23 @@
+.travel-qr-code {
+  display: inline-block;
+  margin-top: 90px;
+  width: 100%;
+}
+
+.travel-qr-code .qr-code-container {
+  max-width: 1164px;
+  margin: 0 auto;
+  text-align: center;
+  background: url('/img/Subtract.png') no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 35px;
+  padding: 65px 0 48px 0;
+}
+
+.qr-code-container .title {
+  color: var(--main-black-color);
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
